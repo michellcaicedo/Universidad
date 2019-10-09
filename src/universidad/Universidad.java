@@ -1,5 +1,5 @@
 package universidad;
-
+//buenas tardes
 import java.util.Date;
 
 public class Universidad {
