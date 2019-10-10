@@ -9,6 +9,15 @@ public class Universidad {
     private String nombresDeEstudiantes;
     private boolean seguroEstudiantil;
     private int numeroDeSalones;
+    
+
+    public Universidad(Date fechaDeInauguracion, String nombre, String nombresDeEstudiantes, boolean seguroEstudiantil, int numeroDeSalones) {
+        this.fechaDeInauguracion = fechaDeInauguracion;
+        this.nombre = nombre;
+        this.nombresDeEstudiantes = nombresDeEstudiantes;
+        this.seguroEstudiantil = seguroEstudiantil;
+        this.numeroDeSalones = numeroDeSalones;
+    }
 
     
     
